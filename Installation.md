@@ -60,7 +60,7 @@ Includes documentation and mascot:
 $ open go/misc/tour/static/img/gopher.png
 ```
 
-![img/gopher.png]
+![](img/gopher.png)
 
 For the target platform, the installation instructions are noted here:
 
