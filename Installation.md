@@ -54,6 +54,13 @@ $ find go/ -type f | xargs -I {} basename {} | rev | cut -d '.' -f 1 | rev | sor
     ...
 ```
 
+Includes documentation and mascot:
+
+```
+$ open go/misc/tour/static/img/gopher.png
+```
+
+![img/gopher.png]
 
 For the target platform, the installation instructions are noted here:
 
