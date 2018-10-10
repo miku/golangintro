@@ -20,7 +20,7 @@ Automatically update imports on save with
 
 There are many more features available, such as
 [navigation](https://code.visualstudio.com/docs/languages/go#_code-navigation),
-support for [testng](https://code.visualstudio.com/docs/languages/go#_test),
+support for [testing](https://code.visualstudio.com/docs/languages/go#_test),
 [gorename](https://godoc.org/golang.org/x/tools/cmd/gorename) and more.
 
 Much of the functionality wrapped into editor plugins is available as
