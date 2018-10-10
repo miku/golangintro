@@ -131,10 +131,7 @@ size (about 240x larger than hello.c).
 
 ```shell
 $ file myprog
-myprog: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
+myprog: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked,
+    with debug_info, not stripped
 ```
-
-
-
-
 
