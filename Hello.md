@@ -105,4 +105,36 @@ $ go get github.com/miku/solrbulk/cmd/...
 
 ## Running code
 
+The `go` program combines a couple of functions in a single tool. Among other
+things, it can run go code:
+
+```shell
+$ go run hello/hello.go
+Hello World
+```
+
+> Run compiles and runs the main package comprising the named Go source files.
+A Go source file is defined to be a file ending in a literal ".go" suffix.
+
+## Compiling a binary
+
+The go tool can build a binary:
+
+```shell
+$ go build -o myprog hello/hello.go
+$ ./myprog
+Hello World
+```
+
+The binary is statically linked and contains the go runtime and is about 2MB in
+size (about 240x larger than hello.c).
+
+```shell
+$ file myprog
+myprog: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, with debug_info, not stripped
+```
+
+
+
+
 
