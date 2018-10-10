@@ -135,3 +135,30 @@ myprog: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked,
     with debug_info, not stripped
 ```
 
+## Example projects
+
+As an example for real-life code, a ANSI coloring library:
+
+* [fatih/colors](https://github.com/fatih/color)
+
+It contains library code in `color.go`, tests and documentation.
+
+To install this library:
+
+```
+$ go get -u -v github.com/fatih/color
+github.com/fatih/color (download)
+
+$ tree /home/tir/go/src/github.com/fatih/color
+├── [ 18K]  color.go
+├── [8.3K]  color_test.go
+├── [4.3K]  doc.go
+├── [ 725]  Gopkg.lock
+├── [ 686]  Gopkg.toml
+├── [1.1K]  LICENSE.md
+├── [4.7K]  README.md
+└── [4.0K]  vendor
+            ...
+```
+
+
