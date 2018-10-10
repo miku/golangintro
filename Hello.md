@@ -77,4 +77,32 @@ Dissecting the path:
     $ go env GOPATH
 ```
 
+Over time, your GOPATH gets populated with code that you write and libraries
+that you use. We will talk about versioning and vendoring later.
+
+More examples. Here is an example top level `$HOME/go/src` directory:
+
+```
+$ find ~/go/src -maxdepth 1
+/home/tir/go/src
+/home/tir/go/src/gonum.org
+/home/tir/go/src/gopkg.in
+/home/tir/go/src/github.com
+/home/tir/go/src/perkeep.org
+/home/tir/go/src/honnef.co
+/home/tir/go/src/golang.org
+/home/tir/go/src/mvdan.cc
+/home/tir/go/src/code.gitea.io
+/home/tir/go/src/launchpad.net
+```
+
+The import name can be used to fetch packages, you might have seen this notion
+on GitHub or elsewhere.
+
+```
+$ go get github.com/miku/solrbulk/cmd/...
+```
+
+## Running code
+
 
