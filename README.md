@@ -11,6 +11,7 @@ The following sections are available:
 
 * [Golang Origins](Origins.md)
 * [Installation](Installation.md)
+* [Editors](Editors.md)
 
 ----
 
