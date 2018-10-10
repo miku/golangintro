@@ -32,10 +32,11 @@ The documentation says:
 > **src** contains Go source files, and
 > **bin** contains executable commands.
 
-The go tool builds and installs binaries to the bin directory.
+The go tool builds and installs binaries to the bin directory (there is also
+`pkg`, contains Go package objects, might go away).
 
-The default location is `$HOME/go` on Linux and `%USERPROFILE%\go`, usually
-`C:\Users\YourName\go` on Windows.
+The default location (controlled by GOPATH environment variable) is `$HOME/go`
+on Linux and `%USERPROFILE%\go`, usually `C:\Users\YourName\go` on Windows.
 
 
 ```shell
@@ -55,6 +56,25 @@ $ tree /home/tir/go/src/github.com/miku/golangintro
 └── README.md
 
 2 directories, 10 files
+```
+
+Since the directory layout is fixed, tools can assume a structure, to download
+libraries, compile code, find dependencies. It can be confusing at first.
+
+Dissecting the path:
+
+```
+/home/tir/go/src/github.com/miku/golangintro/hello/
+
+--------  -- --- ----------------------------------
+   |      |   |               |
+   |      |   |           import path
+ $HOME    |  src
+          |
+          |
+        GOPATH
+
+    $ go env GOPATH
 ```
 
 
