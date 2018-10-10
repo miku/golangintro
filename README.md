@@ -1,6 +1,7 @@
 # golangintro
 
-A comprehensive one day Golang workshop for [devopenspace](https://devopenspace.de/) 2018.
+A comprehensive one day Golang workshop for
+[devopenspace](https://devopenspace.de/) 2018.
 
 ## Overview
 
@@ -12,6 +13,8 @@ The following sections are available:
 * [Golang Origins](Origins.md)
 * [Installation](Installation.md)
 * [Editors](Editors.md)
+* [Go Workspace](Workspace.md)
+* [Hello World](Hello.md)
 
 ----
 
