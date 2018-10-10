@@ -15,6 +15,7 @@ The following sections are available:
 * [Editors](Editors.md)
 * [Go Workspace](Workspace.md)
 * [Hello World](Hello.md)
+* [Basic data types](Types.md)
 
 ----
 
