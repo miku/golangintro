@@ -16,10 +16,10 @@ The following sections are available:
 * [Go Workspace](Workspace.md)
 * [Hello World](Hello.md)
 * [Basic data types](Types.md)
-* [Basics tour](Basics.md)
-* [Flow control tour](Flowcontrol.md)
-* [More types tour](Motetypes.md)
-* [Methods and Interfaces](Methods.md)
+* [Basics tour](Basics.md) (17)
+* [Flow control tour](Flowcontrol.md) (14)
+* [More types tour](Motetypes.md) (27)
+* [Methods and Interfaces](Methods.md) (26)
 
 ----
 
