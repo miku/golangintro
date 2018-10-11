@@ -21,20 +21,10 @@ The following sections are available:
 * [More types tour](Motetypes.md) (27)
 * [Methods and Interfaces](Methods.md) (26)
 * [Concurrency](Concurrency.md) (11)
+* [Working with Files](Files.md)
 
 ----
 
-* Language overview and design documents
-* The first program, explained
-* Basic data types
-* Slices
-* Maps
-* Compound data types
-* Functions
-* Methods
-* Interfaces
-* Goroutines and Channels
-* Select
 * Working with files
 * The io package
 * Working with XML and JSON
