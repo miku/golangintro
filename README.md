@@ -1,7 +1,7 @@
 # golangintro
 
-A comprehensive one day Golang workshop for
-[devopenspace](https://devopenspace.de/) 2018.
+A one day Golang intro workshop for [devopenspace](https://devopenspace.de/)
+2018.
 
 ## Overview
 
