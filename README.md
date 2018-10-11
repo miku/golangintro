@@ -25,10 +25,8 @@ The following sections are available:
 
 ----
 
-* Working with files
-* The io package
+* Readers, Writers and the io package
 * Working with XML and JSON
-* The sync and context packages
 * Testing code
 * Writing web servers
 * Notable projects, tools, helpers
