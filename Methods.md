@@ -48,3 +48,15 @@ func main() {
 
 > An interface type is defined as a set of method signatures.
 
+In line 22, write `a = &v`.
+
+## Interfaces are implemented implicitly (10/26)
+
+> Implicit interfaces decouple the definition of an interface from its
+> implementation, which could then appear in any package without prearrangement.
+
+## The empty interface (14/26)
+
+> Empty interfaces are used by code that handles values of unknown type. For
+> example, fmt.Print takes any number of arguments of type interface{}. 
+

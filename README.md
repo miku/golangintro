@@ -20,6 +20,7 @@ The following sections are available:
 * [Flow control tour](Flowcontrol.md) (14)
 * [More types tour](Motetypes.md) (27)
 * [Methods and Interfaces](Methods.md) (26)
+* [Concurrency](Concurrency.md) (11)
 
 ----
 
@@ -41,7 +42,7 @@ The following sections are available:
 * Testing code
 * Writing web servers
 * Notable projects, tools, helpers
-* Further resources
+* Further resources (Docs, Proverbs)
 
 ## Exercises
 
@@ -66,4 +67,5 @@ The following sections are available:
 * Every type has a zero value. A proverb says: Make the zero value useful.
 * Error handling without exceptions.
 * Multiple return values.
-* Encourages tools for code (linter, struct generator)
+* Encourages tools for code (linter, struct generator).
+* A nil value in an interface can be handled gracefully.
