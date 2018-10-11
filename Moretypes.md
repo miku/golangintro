@@ -106,3 +106,69 @@ func main() {
 	wc.Test(WordCount)
 }
 ```
+
+## Function values (24/27)
+
+> Functions are values too. They can be passed around just like other values.
+
+## Exercise: Fibonacci closure (26/27)
+
+One solution:
+
+```
+package main
+
+import "fmt"
+
+// fibonacci is a function that returns
+// a function that returns an int.
+func fibonacci() func() int {
+	pred := []int{0, 1}
+	var value, i int
+	
+	return func() int {
+		switch {
+		case i < 2:
+			value = i
+		default:
+			value = pred[1] + pred[0]
+			pred[0] = pred[1]
+			pred[1] = value
+		}
+		i++
+		return value
+	}
+}
+
+func main() {
+	f := fibonacci()
+	for i := 0; i < 10; i++ {
+		fmt.Println(f())
+	}
+}
+```
+
+More elegant:
+
+```
+package main
+
+import "fmt"
+
+// fibonacci is a function that returns
+// a function that returns an int.
+func fibonacci() func() int {
+	x, y, z := 0, 1, 0
+	return func() int {
+		z, x, y = x, y, x+y
+		return z
+	}
+}
+
+func main() {
+	f := fibonacci()
+	for i := 0; i < 10; i++ {
+		fmt.Println(f())
+	}
+}
+```

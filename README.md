@@ -19,6 +19,7 @@ The following sections are available:
 * [Basics tour](Basics.md)
 * [Flow control tour](Flowcontrol.md)
 * [More types tour](Motetypes.md)
+* [Methods and Interfaces](Methods.md)
 
 ----
 
@@ -33,7 +34,11 @@ The following sections are available:
 * Interfaces
 * Goroutines and Channels
 * Select
+* Working with files
+* The io package
+* Working with XML and JSON
 * The sync and context packages
+* Testing code
 * Writing web servers
 * Notable projects, tools, helpers
 * Further resources
@@ -44,6 +49,7 @@ The following sections are available:
 
 1. Write a small HTTP server that returns the current time and the number of
    times it has been called.
+2. Extend the server to return JSON.
 
 ### A website inspection tool
 
@@ -58,3 +64,6 @@ The following sections are available:
 
 * It imposes a workspace structure.
 * Every type has a zero value. A proverb says: Make the zero value useful.
+* Error handling without exceptions.
+* Multiple return values.
+* Encourages tools for code (linter, struct generator)
