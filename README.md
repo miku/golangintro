@@ -34,3 +34,9 @@ The following sections are available:
 * Writing web servers
 * Notable projects, tools, helpers
 * Further resources
+
+## What makes Go special?
+
+* It imposes a workspace structure.
+* Every type has a zero value. A proverb says: Make the zero value useful.
+

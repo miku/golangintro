@@ -108,3 +108,47 @@ Most used sequence type. Variable size, uses an array as storage.
 var data []byte
 ```
 
+There is a builtin function `make`, which is a bit special.
+
+> The built-in function make takes a type T, which must be a slice, map or
+> channel type, optionally followed by a type-specific list of expressions.
+
+So we can declare an empty slice or we can allocate a slice with a certain length:
+
+```
+data := make([]byte, 100)
+```
+
+* https://play.golang.org/p/yYDBYCSNVjB
+
+```go
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    var data []byte
+    fmt.Println(data == nil) // Zero value.
+    fmt.Println(data)
+
+    d := make([]byte, 10)
+    fmt.Println(d == nil)
+    fmt.Println(d)
+    d[4] = 1
+    fmt.Println(d)
+}
+```
+
+## Zero value
+
+> When storage is allocated for a variable, either through a declaration or a
+> call of new, or when a new value is created, either through a composite
+> literal or a call of make, and no explicit initialization is provided, the
+> variable or value is given a default value. Each element of such a variable
+> or value is set to the zero value for its type: false for booleans, 0 for
+> numeric types, "" for strings, and nil for pointers, functions, interfaces,
+> slices, channels, and maps. This initialization is done recursively, so for
+> instance each element of an array of structs will have its fields zeroed if
+> no value is specified.
