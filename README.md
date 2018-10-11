@@ -25,11 +25,11 @@ The following sections are available:
 * [Reader, writers and the io package](Io.md)
 * [Working with XML and JSON](Xmljson.md)
 * [Testing Code](Testing.md)
+* [Writing web servers](Servers.md)
 
 ----
 
-* Writing web servers
-* Web applications
+* Web applications with gorilla mux
 * Writing documentation (doc.go, godoc)
 * Notable projects, tools, helpers
 * Further resources (Docs, Proverbs)
