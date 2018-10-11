@@ -23,15 +23,16 @@ The following sections are available:
 * [Concurrency](Concurrency.md) (11)
 * [Working with Files](Files.md)
 * [Reader, writers and the io package](Io.md)
-* [Working with XML and JSON](Xmlj.md)
+* [Working with XML and JSON](Xmljson.md)
+* [Testing Code](Testing.md)
 
 ----
 
-* Working with XML and JSON
 * Testing code
 * Writing web servers
-* Notable projects, tools, helpers
+* Web applications
 * Writing documentation (doc.go, godoc)
+* Notable projects, tools, helpers
 * Further resources (Docs, Proverbs)
 
 ## Exercises
