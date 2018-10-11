@@ -28,7 +28,6 @@ The following sections are available:
 
 ----
 
-* Testing code
 * Writing web servers
 * Web applications
 * Writing documentation (doc.go, godoc)
@@ -54,9 +53,11 @@ The following sections are available:
 
 ## What makes Go special?
 
+* Opinionated language.
 * It imposes a workspace structure.
 * Every type has a zero value. A proverb says: Make the zero value useful.
 * Error handling without exceptions.
 * Multiple return values.
 * Encourages tools for code (linter, struct generator).
 * A nil value in an interface can be handled gracefully.
+* Many more things.
