@@ -42,6 +42,7 @@ The following sections are available:
 * Testing code
 * Writing web servers
 * Notable projects, tools, helpers
+* Writing documentation (doc.go, godoc)
 * Further resources (Docs, Proverbs)
 
 ## Exercises

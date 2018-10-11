@@ -30,7 +30,7 @@ Contains 27 sections.
 
 Example solution:
 
-```
+```go
 package main
 
 import "golang.org/x/tour/pic"
@@ -54,7 +54,7 @@ func main() {
 
 Another solution:
 
-```
+```go
 package main
 
 import "golang.org/x/tour/pic"
@@ -86,7 +86,7 @@ A missing string key is empty.
 
 > Implement word count.
 
-```
+```go
 package main
 
 import (
@@ -115,7 +115,7 @@ func main() {
 
 One solution:
 
-```
+```go
 package main
 
 import "fmt"
@@ -150,7 +150,7 @@ func main() {
 
 More elegant:
 
-```
+```go
 package main
 
 import "fmt"
@@ -162,6 +162,31 @@ func fibonacci() func() int {
 	return func() int {
 		z, x, y = x, y, x+y
 		return z
+	}
+}
+
+func main() {
+	f := fibonacci()
+	for i := 0; i < 10; i++ {
+		fmt.Println(f())
+	}
+}
+```
+
+Even shorter:
+
+```go
+package main
+
+import "fmt"
+
+// fibonacci is a function that returns
+// a function that returns an int.
+func fibonacci() func() int {
+	x, y := 0, 1
+	return func() int {
+		x, y = y, x + y
+		return x
 	}
 }
 
