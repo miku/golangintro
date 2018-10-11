@@ -7,6 +7,18 @@ types.
 > declarations. Composite types - array, struct, pointer, function, interface,
 > slice, map, and channel types - may be constructed using type literals.
 
+
+## Variable declaration
+
+Four different declarations possible:
+
+```
+var x int = 8
+var x = 8
+x := 8
+
+```
+
 ## Numeric types
 
 > A numeric type represents sets of integer or floating-point values. The
