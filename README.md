@@ -22,10 +22,11 @@ The following sections are available:
 * [Methods and Interfaces](Methods.md) (26)
 * [Concurrency](Concurrency.md) (11)
 * [Working with Files](Files.md)
+* [Reader, writers and the io package](Io.md)
+* [Working with XML and JSON](Xmlj.md)
 
 ----
 
-* Readers, Writers and the io package
 * Working with XML and JSON
 * Testing code
 * Writing web servers
