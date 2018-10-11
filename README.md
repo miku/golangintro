@@ -32,4 +32,5 @@ The following sections are available:
 * Select
 * The sync and context packages
 * Writing web servers
-
+* Notable projects, tools, helpers
+* Further resources
