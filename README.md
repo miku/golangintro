@@ -25,31 +25,13 @@ The following sections are available:
 * [Reader, writers and the io package](Io.md)
 * [Working with XML and JSON](Xmljson.md)
 * [Testing Code](Testing.md)
+* [Web clients](Clients.md)
 * [Writing web servers](Servers.md)
+* [Writing documentation](Documentation.md)
+* [Tools](Tools.md)
+* [Further resources](Resources.md)
 
 ----
-
-* Web applications with gorilla mux
-* Writing documentation (doc.go, godoc)
-* Notable projects, tools, helpers
-* Further resources (Docs, Proverbs)
-
-## Exercises
-
-### Small web server
-
-1. Write a small HTTP server that returns the current time and the number of
-   times it has been called.
-2. Extend the server to return JSON.
-
-### A website inspection tool
-
-1. Write a small tool for making requests to a number of websites. For each
-   website, report the number of bytes in the response body and time it took to
-   fetch the resource. The list of URLs can be hardcoded.
-2. Take a file with a list of files as parameters (package flag, bufio).
-3. Make concurrent requests.
-4. Allow to set a timeout.
 
 ## What makes Go special?
 
