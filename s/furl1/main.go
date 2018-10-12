@@ -1,3 +1,4 @@
+// Minimal curl.
 package main
 
 import (

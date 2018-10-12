@@ -1,3 +1,4 @@
+// A sequential link checker that is reading from a file.
 package main
 
 import (
