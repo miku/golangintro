@@ -53,3 +53,13 @@ for {
     }
 }
 ```
+
+## ioutil package
+
+```
+b, err := ioutil.ReadAll(r)
+```
+
+## Exercise
+
+> Read a file and print out its size.

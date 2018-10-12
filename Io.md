@@ -22,3 +22,5 @@ var name = "Dolly"
 fmt.Fprintf(&c, "hello, %s", name)
 fmt.Println(c) // "12"
 ```
+
+* Example: `chainr.go`
