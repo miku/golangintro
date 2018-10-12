@@ -1,4 +1,4 @@
-// Sequential clock server.
+// Concurrent clock server.
 package main
 
 import (
@@ -19,7 +19,7 @@ func main() {
 			log.Print(err)
 			continue
 		}
-		handleConn(conn)
+		go handleConn(conn)
 	}
 }
 
