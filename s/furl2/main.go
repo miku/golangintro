@@ -26,6 +26,7 @@ func main() {
 			log.Fatal(err)
 		}
 		link := strings.TrimSpace(line)
+
 		resp, err := http.Get(link)
 		if err != nil {
 			log.Printf("failed %s: %s", link, err)

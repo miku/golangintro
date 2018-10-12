@@ -3,6 +3,8 @@
 A one day Golang intro workshop for [devopenspace](https://devopenspace.de/)
 2018.
 
+Questions, suggestions [welcome](mailto:martin.czygan@gmail.com).
+
 ## Overview
 
 This workshop contains slides, code, examples and exercises. Target audience

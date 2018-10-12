@@ -34,8 +34,8 @@ func worker(work chan string, out chan string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
 	for link := range work {
-		resp, err := http.Get(link)
 		var buf bytes.Buffer
+		resp, err := http.Get(link)
 		if err != nil {
 			r := result{Link: link, Error: err}
 			if _, err := r.WriteTo(&buf); err != nil {
@@ -72,7 +72,7 @@ func main() {
 
 	var wg sync.WaitGroup
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 1000; i++ {
 		wg.Add(1)
 		go worker(queue, out, &wg)
 	}
