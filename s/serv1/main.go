@@ -2,20 +2,22 @@
 package main
 
 import (
-	"io"
+	"fmt"
 	"log"
 	"net/http"
 )
 
 // Handler is a basic handler.
-type Handler struct{}
+type Handler struct {
+	Name string
+}
 
 func (h Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello World")
+	fmt.Fprintf(w, "Hello World (from %s)", h.Name)
 }
 
 func main() {
-	http.Handle("/", Handler{})
+	http.Handle("/", Handler{Name: "serv1"})
 	log.Println("http://localhost:8000")
 	log.Fatal(http.ListenAndServe(":8000", nil))
 }
