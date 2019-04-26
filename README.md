@@ -15,7 +15,6 @@ The following sections are available:
 * [Golang Origins](Origins.md)
 * [Installation](Installation.md)
 * [Editors](Editors.md)
-* [Go Workspace](Workspace.md)
 * [Hello World](Hello.md)
 * [Basic data types](Types.md)
 * [Basics tour](Basics.md) (17)
